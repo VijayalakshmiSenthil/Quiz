@@ -1,38 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Cormorant:ital,wght@0,300;1,300&family=Dynalight&family=Inter:wght@300&family=Josefin+Sans&family=Josefin+Slab:wght@400;600&family=Jost:wght@500&family=Lato:wght@300&family=Poppins:ital,wght@0,200;0,300;0,400;1,300&family=Roboto:wght@300&display=swap');
 .App {
-  text-align: center;
+    background-color:  #fff3d3;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    font-family: 'Lato', sans-serif;
+}
+*{
+    list-style: none;
+    color: aliceblue;
+}
+.header{
+    text-align: center;
+    color: #e28343;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
